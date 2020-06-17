@@ -1,6 +1,6 @@
 ## Hello, world
 
-![alt-text](joelferg.github.io/ARE picture.jpg)
+![alt text](joelferg.github.io/ARE picture.jpg)
 
 Hello! I'm a rising third year Agricultural & Resource Economics PhD student at University of California, Berkeley. In my research I apply recent econometric and machine learning techniques to questions at the intersection of economic development and the environment. My current projects involve quantifying the health benefits of reduced crop residue burning through conservation agriculture in Mexico, assessing the long-run implications of different land tenure regimes on irrigation infrastructure management and rural development in Senegal, attempting to identify informal risk-sharing networks from panel consumption data, and disentangling the effects of climate and agricultural productivity on the onset of conflict in sub-Saharan Africa.
 
