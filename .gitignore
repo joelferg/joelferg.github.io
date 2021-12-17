@@ -1,4 +1,4 @@
 .DS_Store
 .jekyll_cache/**
-/ignore/*
+*/ignore/*
 *.ipynb*
