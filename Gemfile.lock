@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  webrick (~> 1.7)
+  webrick (~> 1.8.1)
 
 BUNDLED WITH
    2.3.11
