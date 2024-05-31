@@ -30,8 +30,7 @@
 /* Main column */
 .main {
   position: absolute;
-  right: 10%;
-  width: 50%;
+  width: 100%;
   height: 70%;
   overflow: auto;
   background-color: white;
@@ -39,12 +38,11 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-
 /* Top Navigation Menu */
 .top_nav {
   position: fixed;
   background-color: white;
-  margin-top: 3%;
+  margin-top: 10%;
   right: 10%;
   width: 50%;
   height: 10%;
@@ -52,11 +50,15 @@
   text-align: center;
 }
 
+
+
 a {
   color: #23537a;
 }
 
 </style>
+
+
 </head>
 
 <div class="row">
@@ -74,29 +76,10 @@ a {
   </div>
 </div>
 
-<div class="row">
-  <div class="side">
-    <img src="IMG_0559.jpg" alt="headshot" width="90%">
-  </div>
 
   <div class="main">
     {{ content }}
   </div>
 </div>
 
-<div class="row">
-  <div class="side_text">
-    <h2 style="text-align:left;">Joel Ferguson</h2>
-    <p> Postdoc @ GPL </p>
-    <table style="width:75%">
-      <tr>
-        <td style="text-align:left; width:50%;"><a rel="me" href="https://econtwitter.net/@joel_ferg">Mastodon</a></td>
-        <td style="text-align:left; width:50%;"><a href="https://github.com/joelferg">Github</a></td>
-      </tr>
-      <tr>
-        <td style="text-align:left; width:50%;"><a href="https://osf.io/fne8h/">OSF</a></td>
-        <td style="text-align:left; width:50%;"><a href="https://scholar.google.com/citations?user=0tOLi5gAAAAJ&hl=en&gmla=AH70aAWulbBDcqlCrrzfjd7-wdKnwHqHgHujc4GvmB3JY666AjNA_jpnDf5i6S-YisM9Q4hw3n4Y4oVA0RLx94ZcMvvqYnMUm7salt9AeXoIhA">Google Scholar</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+
