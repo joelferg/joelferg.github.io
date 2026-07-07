@@ -1,4 +1,6 @@
 .DS_Store
-.jekyll_cache/**
+.jekyll-cache/**
 */ignore/*
 *.ipynb*
+vendor/
+.bundle/
