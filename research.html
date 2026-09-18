@@ -39,6 +39,15 @@ title: Research
       <p>We study one of the central reforms in China’s economic miracle, the Household Responsibility System (HRS), which decollectivized agriculture starting in 1978. The HRS is commonly seen as having significantly boosted agricultural productivity—but this conclusion rests on unreliable official data. We use historical satellite imagery to generate new measurements of grain yield, independent of official Chinese statistics. Using two separate empirical designs that exploit the staggered rollout of the HRS across provinces and counties, we find no causal evidence that areas that adopted the HRS sooner experienced faster grain yield growth. These results challenge our conventional understanding of decollectivization, land reform, and the origins of the Chinese miracle.</p>
     </details>
   </li>
+  <li>
+    <details>
+      <summary>
+        <a href="/papers/Predicting_Yields_at_Scale_using_RS.pdf" target="_blank">"Downscaling Crop Yield Estimates Using Geospatial Foundation Embeddings"</a> 
+        <p style="margin-top:0;">with <a href="https://kangogosogomo.com/" target="_blank">Kangogo Kibarar</a> and <a href="http://jaysayre.com/" target="_blank">James E. Sayre</a></p>
+      </summary>
+      <p>Crop production statistics are critical to food security planning, yet they are costly to collect and are typically reported at large administrative units such as states, counties, or municipalities. Existing methods that use satellite imagery to produce high-resolution yield estimates rely on complex pipelines and/or disaggregated ground truth that may be inaccessible to practitioners and researchers. Our study develops an alternative approach that uses histograms and quantiles of Google AlphaEarth Foundations (AEF) embedding distributions to downscale yields using only publicly available aggregate data. We apply our model to downscale municipality (admin-2) maize yields to near-farm scales and validate its performance using disaggregated ground truth from the Mexican Agricultural Census, attaining an overall R2 of 0.61 and within-R2 of 0.23. We find that our best model, trained with AEF features, explains 78% of the within-municipality yield variation that can be predicted by a model trained on the ground truth labels. Approaches of the kind used in the literature have limited within-municipality prediction performance, with within-R2 below 0.10, less than half that of our best AEF specification. We highlight within-region R2 as a complementary metric for evaluating whether models recover fine-scale yield variation beyond what is already observable in regional-level official statistics. To aid in this evaluation, we propose a set of diagnostics to help others anticipate downscaling performance in the absence of disaggregated ground truth data.</p>
+    </details>
+  </li>
 </ul>
 
 <h3>Published</h3>
@@ -119,7 +128,6 @@ title: Research
 <ul>
   <li><p>"A High-Resolution Look at Long-Run Development: Evidence from 1.3 Million Historical Photographs" with The Aerial History Project Team</p>
   <p>Press Coverage: <a href="https://www.eenews.net/articles/beer-luck-and-robots-how-scientists-rescued-a-map-to-earths-past/" target="_blank">E&E News</a></p></li>
-  <li><p>"Downscaling Aggregate Maize Yields Using Satellite Imagery and Machine Learning" with <a href="http://jaysayre.com/" target="_blank">James E. Sayre</a> and <a href="https://kangogosogomo.com/" target="_blank">Kangogo Sogomo</a></p></li>
   <li><p>"Conflict and Agricultural Land Abandonment in Africa"</p></li>
   <li><p>"Markets and Climate Change Adaptation: Evidence from Minnesota and Wisconsin Farmland Transactions"</p></li>
 </ul>
